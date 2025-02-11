@@ -1,5 +1,5 @@
 async function loadTasks() {
-    let response = await fetch('/api/tasks');
+    let response = await fetch('http://docker01-alex:5000/tasks/');
     let tasks = await response.json();
     let taskList = document.getElementById('taskList');
     taskList.innerHTML = '';
