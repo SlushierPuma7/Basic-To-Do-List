@@ -1,4 +1,4 @@
-#Run the following conmmands to install and setup docker and docker-compose
+# Run the following conmmands to install and setup docker and docker-compose
 sudo apt install docker.io -y
 sudo systemctl enable docker --now
 docker --version
